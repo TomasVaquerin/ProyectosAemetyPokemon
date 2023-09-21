@@ -13,7 +13,17 @@ public class Temperatura {
     private LocalDate hsTempMax;
     private double tempMin;
     private LocalDate hsTempMin;
-    private double precision;
+    private double precipitacion;
+
+    public Temperatura(String localidad, String provincia, double tempMax, LocalDate hsTempMax, double tempMin, LocalDate hsTempMin, double precipitacion) {
+        this.localidad = localidad;
+        this.provincia = provincia;
+        this.tempMax = tempMax;
+        this.hsTempMax = hsTempMax;
+        this.tempMin = tempMin;
+        this.hsTempMin = hsTempMin;
+        this.precipitacion = precipitacion;
+    }
 
     @Override
     public String toString() {
@@ -24,7 +34,7 @@ public class Temperatura {
                 ", hsTempMax=" + hsTempMax +
                 ", tempMin=" + tempMin +
                 ", hsTempMin=" + hsTempMin +
-                ", precision=" + precision +
+                ", precision=" + precipitacion +
                 '}';
     }
 }

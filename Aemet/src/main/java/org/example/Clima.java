@@ -5,5 +5,5 @@ import java.util.ArrayList;
 
 @Data
 public class Clima {
-    private ArrayList<Temperatura> temperatura;
+    public ArrayList<Temperatura> temperaturas;
 }
