@@ -1,4 +1,5 @@
 Tomas Vaquerin Jimenez y Oscar Encabo Nieto.
+
 Leer y procesar los ficheros de AMET.
 Las columnas son:
 Localidad, Provincia, Temperatura Máxima, Hora de Temperatura Máxima, Temperatura Mínima, Hora de la Temperatura Mínima y Precipitación.
